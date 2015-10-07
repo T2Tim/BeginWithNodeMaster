@@ -1,0 +1,39 @@
+{
+  "PostsDB": [
+    {
+      "title": "Node.js Tutorial: A Beginner’s Guide",
+      "author": "Moshfegh Hamedani",
+      "link": "https://blog.udemy.com/node-js-tutorial/",
+      "post": "In this tutorial, I’ll teach you the basics of Node.js. Not only will you learn what Node is and what you can do with it, but you’ll see Node in action. We’ll build a simple application for a video rental store using Node, Express, Angular and MongoDB.              At a minimum, I’m assuming you have some web development experience. So you should know a bit of Javascript, HTML, and CSS, and have some familiarity with a web application framework such as ASP.NET MVC, PHP, Python or Rails. As far as Node, Express, Angular and MongoDB are concerned, I’m assuming you’re a beginner and that’s why you’re reading this tutorial. So, I’ll cover all these technologies from the ground up. If you do happen to have some experience with Angular and MongoDB, you can read this tutorial faster.              So, What Is Node?               Node is an open-source, cross-platform runtime environment for executing Javascript code. It’s built on the Google V8 Javascript engine, which is the execution engine for Google Chrome and is extremely fast. V8 compiles Javascript code to native machine code.              Before Node, Javascript was only executed in browsers. In 2009, Ryan Dahl used the open-source Google V8 Javascript engine to build Node as a runtime environment for Javascript outside a browser. This made it possible for Javascript developers to use Javascript on the server, mostly in building real-time Web APIs.",
+      "id": 1
+    },
+    {
+      "title": "Felix's Node.js Beginners Guide",
+      "author": "Felix",
+      "link": "http://nodeguide.com/beginner.html",
+      "post": "There is lots of information about node.js, but given the rapid pace at which it is developing, it can be difficult for beginners to find good, current information on how to get started. This guide aims to provide exactly that, whilst staying updated with the latest stable version of node.js.              This guide has been updated to reflect the latest changes in node 0.4.x, the currently stable branch of node.js.              Learning JavaScript              This guide assumes that you are already familar with JavaScript. If you are not, you should go ahead and read: Eloquent JavaScript, a free online book by Marijn Haverbeke.              Hello World Tutorial              This tutorial guides you through installing node.js, including the creation of a simple hello world http server.              Installation              First of all: You should run a *nix operating system in order to use node.js at this point. Linux and OSX are recommended, but you should also be able to use FreeBSD and cygwin (on windows). A full windows port of node.js is in the works, but it is not yet ready for public usage.              The most common way to install node.js is to directly compile it from the downloaded source code. There are also various packages available for different package managers, but since their update frequency varies, I recommend installing from source.",
+      "id": 2
+    },
+    {
+      "title": "Beginning Node.js",
+      "author": "Jack Franklin",
+      "link": "http://javascriptplayground.com/blog/2012/04/beginning-node-js-express-tutorial/",
+      "post": "Unless you've been living under a rock for the past 12 months or so, you've probably heard of Node.js. Simply put, Node is JavaScript on the server.              Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices. (taken from the Node.js homepage).              Node takes JavaScript onto the server, which means it's possible to write your entire application in JavaScript, using it for both the server side, handling requests & rendering views, and then on the front-end as we always have done. Whilst this isn't going to be an official tutorial series, I'll be writing a fair bit on Node in the future.              Today we will look at installing Node & the package manager, NPM (really easy) and then the traditional Hello World tutorial. Once that's done we will take a look about other resources to make Node development easier, then in future tutorials we will use them.",
+      "id": 3
+    },
+    {
+      "title": "Node.js for Beginners",
+      "author": "Maciej Sopylo",
+      "link": "http://code.tutsplus.com/tutorials/node-js-for-beginners--net-26314",
+      "post": "Event-driven programming can be overwhelming for beginners, which can make Node.js difficult to get started with. But don't let that discourage you; In this article, I will teach you some of the basics of Node.js and explain why it has become so popular.              Introduction              To start using Node.js, you must first understand the differences between Node.js and traditional server-side scripting environments (eg: PHP, Python, Ruby, etc).              Asynchronous Programming              Node.js uses a module architecture to simplify the creation of complex applications.              Chances are good that you are familiar with asynchronous programming; it is, after all, the A in Ajax. Every function in Node.js is asynchronous. Therefore, everything that would normally block the thread is instead executed in the background. This is the most important thing to remember about Node.js. For example, if you are reading a file on the file system, you have to specify a callback function that is executed when the read operation has completed.              You are Doing Everything!              Node.js is only an environment - meaning that you have to do everything yourself. There is not a default HTTP server, or any server for that matter. This can be overwhelming for new users, but the payoff is a high performing web app. One script handles all communication with the clients. This considerably reduces the number of resources used by the application. For example, here is the code for a simple Node.js application:",
+      "id": 4
+    },
+    {
+      "title": "About NodeSchool",
+      "author": "NodeSchool",
+      "link": "http://nodeschool.io/about.html",
+      "post": "The workshopper format was first created by Substack of the Internet in Summer 2013 when he wrote the stream-adventure workshopper. \n            The defining characteristic of the workshopper is the interactvity and automation. Workshoppers are made up of challenges of increasing difficulty. Each challenge starts by explaining a concept, and then presents a list of requirements for solving the challenge. Learners then try and write a computer program that satisfies the criteria. \n            When they feel confident about their solution they submit it to the workshop for verification. The workshop runs their solution and checks if all requirements were satisfied. If any are wrong or missing the learner gets contextual feedback and they can try again. If their code passes all of the criteria then they pass the challenge and move on to the next challenge. \n            All of this happens in an automated way. Workshoppers can be thought of almost like a unit test suite that the learner must make pass by implementing the correct code.",
+      "id": 5
+    }
+  ]
+}
